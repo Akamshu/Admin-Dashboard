@@ -130,14 +130,16 @@
     width: 40px;
     height: 40px;
     border-radius: 30px;
-    border: 1px solid rgb(197, 197, 197);
+    border: 2px solid rgb(248, 232, 11);
+    background-color: #f5e941;
 }
 
 .profile-pic-large {
     width: 70px;
     border-radius: 50px;
-    border: 1px solid rgb(197, 197, 197);
+    border: 3px solid rgb(241, 238, 9);
     margin-right: 15px;
+    background-color: #f5e941;
 }
 
 .bottom-header {
@@ -238,8 +240,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: linear-gradient(left, #e69b10, #df9713 2%, transparent 2%, transparent 100%);
-    background-image: -webkit-linear-gradient(left, #df9713, #df9713 2%, transparent 2%, transparent 100%)  
+    background-image: linear-gradient(left, #f5e941, #f5e941 2%, transparent 2%, transparent 100%);
+    background-image: -webkit-linear-gradient(left, #f5e941, #f5e941 2%, transparent 2%, transparent 100%)  
 }
 
 .project-heading {
@@ -365,8 +367,9 @@ hr {
 
 ul li:hover {
     text-decoration: none;
+    color:#ddfcf8;
     cursor: pointer;
-    -webkit-transform: scale(1.07);
+    /* -webkit-transform: scale(1.07); */
 }
 
 .project-heading:hover {
